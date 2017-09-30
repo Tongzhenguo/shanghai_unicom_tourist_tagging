@@ -7,6 +7,7 @@ import xgboost as xgb
 from sklearn.model_selection import train_test_split
 '''
 离散特征，增加模型稳定性
+数值类特征取对应的排名值,对排名特征作等值离散化
 '''
 
 def trans_data( tr_x,isTrain=True ):

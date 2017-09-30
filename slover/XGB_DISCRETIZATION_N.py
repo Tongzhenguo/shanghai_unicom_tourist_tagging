@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 
 '''
 离散特征之后的计数特征，增加模型稳定性
+统计一个样本有多少取值为0,多少取值为1,...
 '''
 
 def trans_data( isTrain=True ):

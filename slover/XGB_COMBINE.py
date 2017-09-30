@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 reload(sys)
 sys.setdefaultencoding('utf8')
 '''
-组合特征
+根据重要性分数，筛选出前k个特征,两两进行log(xy)变换
 '''
 def trans_data( tr_x,isTrain=True ):
     print('开始构造训练集---------------------------------------------------')

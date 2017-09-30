@@ -6,7 +6,9 @@ import sys
 import pandas as pd
 import xgboost as xgb
 from sklearn.model_selection import train_test_split
-
+'''
+统计各app和app分类的pv占比，筛选出对旅游者影响较大的app和app分类
+'''
 reload(sys)
 sys.setdefaultencoding('utf8')
 
